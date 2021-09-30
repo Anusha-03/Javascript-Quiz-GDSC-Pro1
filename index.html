@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>🧮 Quizz</title>
+    <!--css-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+ <!-- Quiz Box -->
+    <div class="quiz_box">
+        <div class="inner_div">
+
+            <div class="title">Javascript Quiz</div>
+
+            <h2 class="question">Q</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="ans1" class="answer">
+                    <label for="ans1" id="option1">Answer1</label>
+                    </input>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans2" class="answer">
+                    <label for="ans2" id="option2">Answer2</label>
+                    </input>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans3" class="answer">
+                    <label for="ans3" id="option3">Answer3</label>
+                    </input>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans4" class="answer">
+                    <label for="ans4" id="option4">Answer4</label>
+                    </input>
+                </li>
+            </ul>
+            <button id="submit">Submit</button>
+            <div id="showScore" class="scoreArea"></div>
+        </div>
+    </div>
+
+    <!--js file-->
+    <script src="index.js"></script>
+
+</body>
+</html>

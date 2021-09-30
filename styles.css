@@ -1,0 +1,77 @@
+/*_________________________________________________elements_________________________________________________*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 100%;
+}
+/*_______________________________________________Quiz Box________________________________________________________*/
+.quiz_box {
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;         /*grid*/
+    place-items: center;
+    background-color: #fcde67;
+}
+
+.inner_div {
+    width: 40vw;
+    background-color: white;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+
+.inner_div h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 1rem 0 3rem 0 ;
+}
+
+.inner_div li{
+    font-size: 1rem;
+    margin-top: 1.3rem;
+    list-style: none;
+}
+
+input {
+    cursor: pointer;
+}
+
+#submit, .btn {
+    padding: 1rem 2rem;
+    outline: none;
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: #fcde67;
+    background-color: rgb(99, 199, 233);
+    margin-top: 2rem;
+    border-radius: 5%;
+}
+
+#submit:hover {
+     background-color: blue;
+     color: white;
+     cursor: pointer;
+     
+}
+
+/*___________________________________________Score Area_________________________________________________________*/
+
+#showScore {
+    background-color: aliceblue;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+
+#showScore .btn {
+    cursor: pointer;
+}
+.scoreArea {
+    display: none;
+}
